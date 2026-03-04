@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FocusForge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🔥 FocusForge</h1>
+
+    <div class="goal-section">
+      <input type="text" id="goalInput" placeholder="Enter today's main goal..." />
+      <button onclick="setGoal()">Set Goal</button>
+      <p id="currentGoal"></p>
+    </div>
+
+    <div class="timer-section">
+      <h2 id="timer">25:00</h2>
+      <button onclick="startTimer()">Start</button>
+      <button onclick="resetTimer()">Reset</button>
+    </div>
+
+    <div class="stats-section">
+      <h3>Sessions Completed Today:</h3>
+      <p id="sessions">0</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
