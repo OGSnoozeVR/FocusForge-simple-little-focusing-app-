@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: #1e1e1e;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 350px;
+}
+
+input {
+  padding: 0.5rem;
+  width: 70%;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  background: #ff6b00;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#timer {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
